@@ -1,0 +1,122 @@
+/* google font link import */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,700;1,500&family=Roboto:wght@100;300&family=Work+Sans&display=swap');
+
+
+/* =========================== 
+header area style    
+==============================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-area{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+    padding-top: 50px;
+}
+.company-name{
+  font-weight: 700;
+   font-size: 40px;
+   color: #131313;
+}
+.nav-items a{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+    font-weight: 500;
+     font-size: 18px;
+     color: #131313;
+}
+/* Banner area style start */
+.banner-area{
+    margin-top: 50px;
+    text-align: center;
+}
+.banner-name{
+    width: 600px;
+    margin: 0 auto;
+}
+.banner-name h3{
+    font-weight: 700;
+    font-size: 50px;
+    color: #131313;
+}
+.banner-name p{
+    font-weight: 400;
+     font-size: 16px;
+     color: #727272;
+     margin: 30px 0;
+}
+.explore{
+    display: flex;
+    width: 200px;
+    height: 64px;
+    background: #FF900E;
+    color: white;
+    margin: 20px auto;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+}
+.banner-photo img{
+   width: 1200px;
+   margin: 25px 50px;
+}
+/* quick list area style */
+.quick-lists{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+}
+.photo img{
+    width: 340px;
+    height: 340px;
+    border-radius: 8px;
+}
+.quick-list-contant{
+    width: 500px;
+    margin: auto;
+   padding-left: 30px;
+   text-align: left;
+}
+.quick-list-contant h3{
+    font-weight: 500;
+    font-size: 45px;
+}
+.quick-list-contant p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px 0;
+}
+.explor{
+    display: flex;
+    background: #FF900E;
+    color: white;
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.word-style1{
+    color: #727272;
+}
+.word-style2{
+    color: #131313;
+}
+.word-style3{
+   color:#FF900E ; 
+}
