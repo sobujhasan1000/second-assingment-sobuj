@@ -18,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 100px;
+    margin:0 50px;
     padding-top:30px;
 }
 .company-name{
@@ -42,8 +42,8 @@ nav{
     flex-direction:column;
 }
 .banner-name{
-    width: 600px;
-    margin: 0 auto;
+    width: 400px;
+    margin:  auto;
 }
 .banner-name h3{
     font-weight: 700;
@@ -68,7 +68,7 @@ nav{
    border-radius: 8px;
 }
 .banner-photo img{
-   width: 100%;
+   width: 90%;
    /* margin: 50px; */
    
 }
@@ -76,7 +76,7 @@ nav{
 .quick-lists{
     display: flex;
     justify-content: space-between;
-    margin: 50px 50px;
+    margin:50px;
 }
 .photos{
     display: grid;
@@ -90,7 +90,7 @@ nav{
     border-radius: 8px;
 }
 .quick-list-contant{
-    width: 500px;
+    width: 400px;
     margin: auto;
    padding-left: 30px;
    text-align: left;
@@ -127,8 +127,9 @@ nav{
 /* feature area style */
 .features-area{
   display: flex;
-  margin: 0px 100px;
+  margin: 50px;
   column-gap: 20px;
+  
 }
 .features-info{
 width: 500px;
@@ -158,34 +159,14 @@ width: 500px;
     flex-direction: column;
     row-gap: 20px;
 }
-.version{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-     border-radius: 8px;
-     padding: 10px;
-     margin-top: 20px;
-}
-.builder{
+.version,.builder,.design,.edit{
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
      border-radius: 8px;
      padding: 10px;
 }
-.design{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-     border-radius: 8px;
-     padding: 10px;
-}
-.edit{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
-     border-radius: 8px;
-     padding: 10px;
-}
-
 .year-of-experience img{
-  width: 100%;
+  width: 500px;
   height: 600px;
 }
 .number-of-year{
@@ -196,13 +177,11 @@ width: 500px;
  border-radius: 8px;
  width: 225px;
  height: 125px;
- margin-left: 45%;
- margin-top: -75px;
+ margin-left: 42%;
+ margin-top: -100px;
  position: relative;
 }
-.change{
-    margin-top:100%;
-}
+
 .number-of-year h3{
     font-weight: 700;
     font-size: 65px;
