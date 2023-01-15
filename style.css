@@ -182,7 +182,7 @@ width: 500px;
  background: url(./images/architect.png);
  width: 550px;
  height: 700px;
-
+ 
 }
 .number-of-year{
  background: #FF900E;
@@ -202,4 +202,59 @@ width: 500px;
     font-weight: 700;
     font-size: 65px;
     
+}
+/* fact section */
+.fact-area{
+margin: 50px 100px;
+}
+.fact-contant{
+    text-align: left;
+}
+.fact-contant h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+.fact-contant p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+}
+.small-card{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+}
+.card{
+    border: 2px solid gold;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+/* sponsores */
+.sponsore{
+   text-align: center;   
+}
+.sponsore h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sponsor-name{
+display: flex;
+gap: 20px;
+justify-content: center;
+align-items: center;
+margin: 50px;
+}
+.copy{
+   height: 50px;
+   width: 500px;
+  text-align: center;
+background: #FFF4E7;
+margin-bottom: 20px;
+padding: 15px;
+margin: 20px 50px;
 }
