@@ -123,7 +123,7 @@ nav{
 /* feature area style */
 .features-area{
   display: flex;
-  margin: 50px 100px;
+  margin: 0px 100px;
   column-gap: 20px;
 }
 .features-info{
@@ -146,6 +146,7 @@ width: 500px;
     color: #131313;
     width: 350px;
     margin-bottom: 20px;
+    border-left: 5px solid gold;
 }
 
 .feature-dis{
@@ -180,8 +181,8 @@ width: 500px;
 }
 .year-of-experience{
  background: url(./images/architect.png);
- width: 550px;
- height: 700px;
+ width:1000px;
+ /* height: 100%; */
  
 }
 .number-of-year{
@@ -192,8 +193,7 @@ width: 500px;
  border-radius: 8px;
  width: 225px;
  height: 125px;
- margin-top: 100%;
- margin-bottom: 0;
+ margin:auto ;
 }
 .change{
     margin-top:100%;
@@ -233,6 +233,31 @@ margin: 50px 100px;
     height: 150px;
     padding: 10px;
 }
+.card:hover{
+    transform: scale(1.1);
+}
+/* contract section */
+.contract{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    background: #f1bc7c;
+    padding: 30px 20px;
+    border-radius: 10px;
+    
+}
+.contract h2,h3{
+    font-size: 30px;
+    font-weight: 600px;
+    margin-bottom: 15px;
+}
+.contract a{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-right: 20px;
+}
+
 /* sponsores */
 .sponsore{
    text-align: center;   
@@ -249,12 +274,14 @@ justify-content: center;
 align-items: center;
 margin: 50px;
 }
+.sponsor-name img{
+    color: #FFFFFF;
+}
 .copy{
-   height: 50px;
-   width: 500px;
+  height: 50px;
+  width: 800px;
   text-align: center;
-background: #FFF4E7;
-margin-bottom: 20px;
-padding: 15px;
-margin: 20px 50px;
+  background: #FFF4E7;
+  padding-top: 20px;
+  margin: 20px auto;
 }
