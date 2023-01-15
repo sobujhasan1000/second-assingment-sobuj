@@ -11,6 +11,7 @@ header area style
 }
 .header-area{
     background-color: rgba(255, 144, 14, 0.1);
+    margin: 0 25px;
     
 }
 
@@ -18,7 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0 10px;
+    margin:0 20px;
     padding-top:30px;
 }
 .company-name{
