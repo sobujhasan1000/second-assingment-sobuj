@@ -10,7 +10,8 @@ header area style
     padding: 0;
 }
 .header-area{
-    background: rgba(255, 144, 14, 0.1);
+    background-color: rgba(255, 144, 14, 0.1);
+    
 }
 
 nav{
@@ -18,7 +19,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 100px;
-    padding-top: 50px;
+    padding-top:30px;
 }
 .company-name{
   font-weight: 700;
@@ -37,6 +38,8 @@ nav{
 .banner-area{
     margin-top: 50px;
     text-align: center;
+    display: flex;
+    flex-direction:column;
 }
 .banner-name{
     width: 600px;
@@ -65,14 +68,15 @@ nav{
    border-radius: 8px;
 }
 .banner-photo img{
-   width: 1200px;
-   margin: 25px 50px;
+   width: 100%;
+   /* margin: 50px; */
+   
 }
 /* quick list area style */
 .quick-lists{
     display: flex;
     justify-content: space-between;
-    margin: 50px 100px;
+    margin: 50px 50px;
 }
 .photos{
     display: grid;
@@ -180,9 +184,9 @@ width: 500px;
      padding: 10px;
 }
 
-.year-of-experience{
- background: url(./images/architect.png);
-width:650px;
+.year-of-experience img{
+  width: 100%;
+  height: 600px;
 }
 .number-of-year{
  background: #FF900E;
@@ -275,9 +279,6 @@ justify-content: center;
 align-items: center;
 margin: 50px;
 }
-.sponsor-name img{
-  opacity: inherit;
-}
 .copy{
   height: 50px;
   width: 800px;
@@ -285,4 +286,70 @@ margin: 50px;
   background: #FFF4E7;
   padding-top: 20px;
   margin: 20px auto;
+}
+/* =================================
+responsive style start               
+===================================== */
+
+@media only screen and (max-width:576px) {
+    *{
+
+        margin: 0px;
+        padding: 0px;
+    }
+.nav{
+   text-decoration: overline;
+  flex-direction:column;
+
+}
+.nav-items{
+    flex-direction: column;
+}
+.banner-area{
+    flex-direction: column;
+    text-align: center;
+}
+.quick-lists{
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+.photos{
+    grid-template-columns: repeat(1,1fr);
+   margin-top: 10px;
+   align-items: center;
+}
+ .features-area{
+    flex-direction: column;
+ }
+ .year-of-experience{
+   margin-top: 10px;
+ }
+ .number-of-year{
+  margin-left: 30%;
+ }
+ .fact-area{
+
+ }
+ .small-card{
+    flex-direction: column;
+    row-gap: 10px;
+ }
+ .contract{
+    flex-direction: column;
+    height: 300px;
+    text-align: center;
+ }
+ .sponsore{
+
+ }
+ .sponsor-name {
+ flex-direction: column;
+  width: 150px;
+  height:400px;
+  margin: 0 auto;
+ }
+ .copy{
+   width: 450px;
+ }
 }
